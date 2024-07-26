@@ -10,7 +10,7 @@ function BookForm() {
     const [cantidad, setCantidad] = useState('');
     const [editorial, setEditorial] = useState('');
     const [showBox, setShowBox] = useState(false);
-    const verticalMenuItems = ['Agregar', 'Editar', 'Borrar'];
+    
 
     const libro = {
         nombre,
